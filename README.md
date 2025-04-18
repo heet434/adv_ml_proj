@@ -6,14 +6,11 @@ A Python implementation of [RAISR](http://ieeexplore.ieee.org/document/7744595/)
 
 ### Prerequisites
 
-You can install most of the following packages using [pip](https://pypi.python.org/pypi/pip).
+Run the following command to install the required packages. Preferably, use a virtual environment to avoid package conflicts.
 
-* [OpenCV-Python](https://pypi.python.org/pypi/opencv-python)
-* [NumPy](http://www.numpy.org/)
-* [SciPy](https://www.scipy.org/)
-* [Python Imaging Library (PIL)](http://www.pythonware.com/products/pil/)
-* [Matplotlib](https://matplotlib.org/)
-* [scikit-image](http://scikit-image.org/)
+```
+pip install -r requirements.txt
+```
 
 ### Training
 
