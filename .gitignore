@@ -1,0 +1,17 @@
+train/*
+test/*
+results/*
+__pycache__
+*.p
+
+# Except these files...
+!train/README.md
+!test/README.md
+!results/README.md
+
+# System files
+*.pyc
+.DS_Store
+
+# env
+/env_raisr
